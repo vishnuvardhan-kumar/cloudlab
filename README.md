@@ -3,7 +3,7 @@ Virtual Homelab Setup on AWS Public Cloud
 
 ## Architecture
 The basic layout of the lab is as follows:
-![Network Diagram](https://raw.githubusercontent.com/vishnuvardhan-kumar/cloudlab/master/homelab.JPG)
+![Network Diagram](https://raw.githubusercontent.com/vishnuvardhan-kumar/cloudlab/master/img/homelab.JPG)
 
 ## Quick Facts
 - 12 AWS EC2 Instances in total
@@ -41,5 +41,5 @@ The basic layout of the lab is as follows:
 - Agents running on all EC2 instances (node_exporter for Linux / wmi_exporter for Windows)
 - Grafana Dashboard shows live status of all services (screenshot below)
 
-![Grafana](https://raw.githubusercontent.com/vishnuvardhan-kumar/cloudlab/master/grafana.JPG)
+![Grafana](https://raw.githubusercontent.com/vishnuvardhan-kumar/cloudlab/master/img/grafana.JPG)
 
